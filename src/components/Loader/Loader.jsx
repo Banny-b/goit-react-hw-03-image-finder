@@ -1,6 +1,14 @@
-import { Bars } from 'react-loader-spinner';
+import { ProgressBar } from 'react-loader-spinner';
 
 
 export const Loader = () => {
-  return <Bars color="#0bb3c9" height={80} width={80} ariaLabel="loading" />;
+  return <ProgressBar
+  height="200"
+  width=""
+  ariaLabel="progress-bar-loading"
+  wrapperStyle={{}}
+  wrapperClass="progress-bar-wrapper"
+  borderColor = '#0bb3c9'
+  barColor = '#ff1906'
+  />;
 };
