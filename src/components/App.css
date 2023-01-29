@@ -9,4 +9,9 @@
   color: aqua;
   margin-right: auto;
   margin-left: auto;
+  animation: flicker 1.5s infinite;
+}
+@keyframes flicker {
+  from { opacity: 1; }
+  to { opacity: 0; }
 }
