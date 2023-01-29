@@ -27,9 +27,24 @@
     border-radius: 3px;
     overflow: hidden;
   }
-
-
-
+  
+  .SearchForm-input {
+    display: inline-block;
+    width: 100%;
+    font: inherit;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  .SearchForm-input::placeholder {
+    font: inherit;
+    font-size: 18px;
+    opacity: 0.4;
+  }
+  
   .SearchForm-button {
     display: inline-block;
     width: 48px;
@@ -55,21 +70,4 @@
     white-space: nowrap;
     clip-path: inset(50%);
     border: 0;
-  }
-  
-  .SearchForm-input {
-    display: inline-block;
-    width: 100%;
-    font: inherit;
-    font-size: 20px;
-    border: none;
-    outline: none;
-    padding-left: 4px;
-    padding-right: 4px;
-  }
-  
-  .SearchForm-input::placeholder {
-    font: inherit;
-    font-size: 18px;
-    opacity: 0.4;
   }

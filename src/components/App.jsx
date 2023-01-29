@@ -117,7 +117,12 @@ export class App extends Component {
           <Button onClick={this.handleLoadMoreImg} />
         )}
         {loading && <Loader />}
-        <ScrollToTop top='300' color='#0bb3c9' smooth='true' style={{backgroundColor: '#ebecec', opacity: 0.6}} />
+        <ScrollToTop 
+        top='300' 
+        color='#0bb3c9' 
+        smooth='true' 
+        style={{backgroundColor: '#f4f4f4', opacity: 0.6}} 
+        />
       </div>
     );
   }

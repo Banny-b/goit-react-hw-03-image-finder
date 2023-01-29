@@ -35,10 +35,6 @@ export class Searchbar extends Component {
           onSubmit={this.handleSubmit}
           autoComplete="off"
         >
-          <button type="submit" className="SearchForm-button">
-            <SearchIcon />
-          </button>
-
           <input
             className="SearchForm-input"
             type="text"
@@ -48,6 +44,9 @@ export class Searchbar extends Component {
             onChange={this.handleChange}
             value={this.state.query}
           />
+          <button type="submit" className="SearchForm-button">
+            <SearchIcon />
+          </button>
         </form>
       </header>
     );
